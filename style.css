@@ -94,19 +94,24 @@ p {
 
   /*HEADER END*/
 
-  /*MERCHANDISE*/
+  /*ABOUT*/
 
-.Merchandise{
+.About{
 	padding: 80px 0 80px;
 	text-align: center;
 }
 
-.Merchandise p{
-	font-size:14px;
-	padding-bottom: 40px;
+.About h3{
+	font-family: 'Arial';
 }
 
-.Merchandise i{
+.About p{
+	font-size:14px;
+	padding-bottom: 40px;
+	color:#000;
+}
+
+.About i{
 	height: 80px;
 	width: 80px;
 	font-size: 30px;
@@ -116,7 +121,59 @@ p {
 	color:#fff;
 }
 
-  /*MERCHANDISE END*/
+@media(max-width: 768px){
 
+ .services{
+ 	padding: 30px;
+ } 
+
+}
+  /*ABOUT END*/
+
+ /*Merchandise*/
+
+.Merchandise{
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #3399ff;
+}
+
+.Merchandise h2,p{
+	color:#fff;
+}
+
+.Merchandise p{
+	padding-bottom: 40px;
+}
+
+.Merchandise .clothes{
+	padding: 30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.clothes h1,h3{
+	color:#4c4c4c;
+}
+
+.clothes button{
+	margin-top: 10px;
+}
+
+@media(max-width: 768px)
+{
+	.Merchandise{
+		padding:30px;
+	}
+
+	.clothes{
+		width:80%;
+		margin-left:25px;
+	}
+}
+
+ /*Merchandise End*/
 
 
