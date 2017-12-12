@@ -176,4 +176,40 @@ p {
 
  /*Merchandise End*/
 
+	/*Team*/
+
+.team{
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.team h2,h4{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+}
+
+.team p{
+	color:#737373;
+}
+
+.team img{
+	margin-top:80px;
+}
+
+.team i{
+	height:30px;
+	width:30px;
+	font-size:20px;
+	border-radius:50%;
+	background-color: #a0db8e;
+	padding: 5px;
+	color:white;
+}
+
+.team a:hover i{
+	background-color:#709963;
+}
+
+	/*Team Ends*/
+
 
