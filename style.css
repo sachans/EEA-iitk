@@ -87,7 +87,7 @@ p {
 	font-family: 'Comic Sans MS';
 	color:#004;
 	text-align:center;
-	margin-top: 30%;
+	margin-top: 20%;
 	font-weight: 700;
 }
 
@@ -213,3 +213,42 @@ p {
 	/*Team Ends*/
 
 
+    /*Department Trip*/
+
+
+    /*Department Trip Ends*/
+
+
+    /*Workshops*/
+
+
+
+    /*Workshops End */
+
+
+    /*Queries*/
+
+
+
+    /*Queries End*/
+
+
+    /*Contacts*/
+
+.Contacts{
+	padding:30px;
+	color:#ccc;
+	background-color:#222 ;
+}
+
+.Contacts i{
+	padding: 5px;
+	font-size: 20px;
+}
+
+.Contacts .social{
+	height:30px;
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+}
+    /*Contacts End*/
