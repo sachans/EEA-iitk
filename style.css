@@ -194,6 +194,9 @@ p {
 
 .team img{
 	margin-top:80px;
+	border-radius: 50% !important;
+	width: 70% !important;
+	height: 70% !important;
 }
 
 .team i{
@@ -215,15 +218,21 @@ p {
 
     /*Department Trip*/
 
+.Departmental-trip{
+	background-color: yellow;
+}
+
+.Departmental-trip h1{
+	text-align: center;
+}
+
+.Departmental-trip h2,h4{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+	text-align: center;
+}
 
     /*Department Trip Ends*/
-
-
-    /*Workshops*/
-
-
-
-    /*Workshops End */
 
 
     /*Queries*/
