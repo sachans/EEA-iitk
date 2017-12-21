@@ -45,7 +45,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 wow bounceInLeft">
-            <h1 class="caption">Department of Electrical Engineering</h1> 
+            <img src="images/new_logo.png">
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
     <div id="About" class="About">  
       <div class="container">
         <h1>About Electrical Department</h1>
-        <p class="wow fadeInDown">The  Electrical  Engineering  Association (EEA) represents  current  student  within  the  Electrical  Engineering  Department  at  IIT  Kanpur. It is a link between  the  faculty  and  the  students  of   the Department of Electrical Engineering.</p>
+        <p class="wow fadeInDown">EEA is 'Electrical Engineering Association' of Students, Faculty and Staff of Department of Electrical Engineering, IIT Kanpur, India</p>
         <div class="row">
           <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="1.4s">
             <i class="fa fa-university" aria-hidden="true"></i>
@@ -90,20 +90,16 @@
           <div class="col-lg-6 col-md-6 clothes wow flipInY" data-wow-delay="0.5s">
               <h3>Department Hoodie</h3>
               <h1><i class="fa fa-inr" aria-hidden="true" style="font-size:30px"></i> 599/-</h1>
-              <div class="hoodie">
-                <img src="images/hoodie.jpg">
-              </div>
+              <img class="img-circle" src="images/hoodie.jpg" style="width:90%">
+              <br>
               <button class="btn btn-success">Buy Now</button>
               <hr>
           </div>
           <div class="col-lg-6 col-md-6 clothes wow flipInY" data-wow-delay="1.3s" >
             <h3>Department T-Shirt</h3>
             <h1><i class="fa fa-inr" aria-hidden="true" style="font-size:30px"></i> 599/-</h1>
-            <div class="T-Shirt">
-              <img src="images/T-shirt.jpg">
-            </div>
-            <button class="btn btn-success">Buy Now</button>
-            <hr>
+            <img class="img-circle" src="images/T-shirt.jpg" style="width:90%">
+            <p style="color: black"><br>Coming Soon...</p>
           </div> 
         </div>
       </div>
@@ -118,10 +114,16 @@
         <p>This is the team of Electrical Engineering Association</p>
         <div class="row">
           <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.6s">
-            <img src="images/team/MayankLunayach(Head).jpg" class="img-circle" height="70%" width="70%"> 
+            <img src="images/team/MayankLunayach.jpg" class="img-circle" height="70%" width="70%"> 
             <h4>Mayank Lunayach</h4>
             <p>Head EEA</p>
             <i class="fa fa-home" aria-hidden="true"></i> Hall 12
+          </div>
+          <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.2s">
+            <img src="images/team/SwadhaChauhan(Convener).jpg" class="img-circle" height="70%" width="70%"> 
+            <h4>Swadha Chauhan</h4>
+            <p>Convenor</p>
+            <i class="fa fa-home" aria-hidden="true"></i>  Hall 12
           </div>
           <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.2s">
             <img src="images/team/VipulBajaj(CFO) (1).jpg" class="img-circle" height="70%" width="70%"> 
@@ -135,24 +137,18 @@
             <p>PG Cordinator</p>
             <i class="fa fa-home" aria-hidden="true"></i>  Hall 12
           </div>
+        </div>
+        <div class="row">
           <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
             <img src="images/team/ShubhamSharma(PG Cordinator).jpg" class="img-circle" height="70%" width="70%"> 
             <h4>Shubham Sharma</h4>
             <p>PG Cordinator</p>
             <i class="fa fa-home" aria-hidden="true"></i>  Hall 12
           </div>
-        </div>
-        <div class="row">
           <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.6s">
             <img src="images/team/SauravAgrawal(PG Cordinator).jpg" class="img-circle" height="70%" width="70%"> 
             <h4>Saurabh Agrawal</h4>
             <p>PG Cordinator</p>
-            <i class="fa fa-home" aria-hidden="true"></i>  Hall 12
-          </div>
-          <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.2s">
-            <img src="images/team/SwadhaChauhan(Convener).jpg" class="img-circle" height="70%" width="70%"> 
-            <h4>Swadha Chauhan</h4>
-            <p>Convenor</p>
             <i class="fa fa-home" aria-hidden="true"></i>  Hall 12
           </div>
           <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
@@ -312,7 +308,10 @@
 
 <script src="wow.min.js"></script>
 <script>
-    new WOW().init();
+    new WOW(
+      {
+        mobile:true,
+      }).init();
 </script>
 
   </body>
